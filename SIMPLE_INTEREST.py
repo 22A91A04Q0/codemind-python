@@ -1,3 +1,3 @@
-P,R,T=map(int,input().split())
-a=P*R*T//100
-print(f"{a}")
+P,T,R=map(int,input().split())
+si=P*R*T//100
+print(f"{si:}")
